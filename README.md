@@ -1,10 +1,10 @@
-# Extending with Shared Libraries
+## Extending with Shared Libraries
 
 As Pipeline is adopted for more and more projects in an organization, common patterns are likely to emerge. Oftentimes it is useful to share parts of Pipelines between various projects to reduce redundancies and keep code "DRY" [1].
 
 Pipeline has support for creating "Shared Libraries" which can be defined in external source control repositories and loaded into existing Pipelines.
 
-# Defining Shared Libraries
+## Defining Shared Libraries
 
 A Shared Library is defined with a name, a source code retrieval method such as by SCM, and optionally a default version. The name should be a short identifier as it will be used in scripts.
 
